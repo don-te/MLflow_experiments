@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/theja/OneDrive/Desktop/MLOPS_Practice/MLflow_experiments/mlruns/1/models/m-4be9c3fea72046a58ba3547e8abedee6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-4be9c3fea72046a58ba3547e8abedee6
+model_size_bytes: 21509
+model_uuid: m-4be9c3fea72046a58ba3547e8abedee6
+prompts: null
+run_id: 148cf29f3c4f442990468b390c2b3f7b
+utc_time_created: '2026-06-09 07:02:00.424690'
